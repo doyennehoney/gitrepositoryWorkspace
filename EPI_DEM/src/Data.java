@@ -2,7 +2,7 @@ import model.Events;
 
 public class Data extends Events{
 	int size;
-	//madechanges to 
+	//not sure how it works yet but I'll fu=igure it out
 	//int grid[][];
 	double susceptible, infected, recovered;
 	public Data(int size, double susceptible,  double infected, double recovered) {
