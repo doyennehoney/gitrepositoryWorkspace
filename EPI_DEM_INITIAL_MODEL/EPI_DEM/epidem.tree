@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tree:Tree xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tree="http://psm.org/Tree" ID="Simulation_Tree">
+  <Root ID="Main_Root" child="//@Coordinator.0"/>
+  <Coordinator xsi:type="tree:PDEVSCoordinator" ID="EPIDEM" modelName="EPIDEM" children="//@Simulator.0 //@Simulator.1"/>
+  <Simulator xsi:type="tree:PDEVSSimulator" ID="B_Epidemiology" modelName="B_Epidemiology"/>
+  <Simulator xsi:type="tree:PDEVSSimulator" ID="A_Demography" modelName="A_Demography"/>
+</tree:Tree>

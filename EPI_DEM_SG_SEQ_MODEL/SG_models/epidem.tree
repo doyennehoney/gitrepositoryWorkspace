@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tree:Tree xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:tree="http://devs.org/tree" ID="Simulation_Tree">
+  <Root ID="Main_Root" child="//@Coordinator.0"/>
+  <Coordinator ID="EPIDEM" modelName="EPIDEM" children="//@Coordinator.1 //@Coordinator.2"/>
+  <Coordinator ID="A" modelName="A" children="//@Simulator.0"/>
+  <Coordinator ID="B" modelName="B" children="//@Simulator.1"/>
+  <Simulator ID="A_Demography" modelName="A_Demography"/>
+  <Simulator ID="B_Demography" modelName="B_Demography"/>
+</tree:Tree>

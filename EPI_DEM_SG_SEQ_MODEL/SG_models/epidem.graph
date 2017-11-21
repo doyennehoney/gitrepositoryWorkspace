@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://devs.org/graph" ID="Graph">
+  <bundle href="epidem.bundle#/"/>
+  <vm href="epidem.vm#/"/>
+  <mappings ID="map">
+    <processes href="epidem.bundle#//@Process.0"/>
+    <processor href="epidem.vm#//@processors.0"/>
+  </mappings>
+</graph:Graph>

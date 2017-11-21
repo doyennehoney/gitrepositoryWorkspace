@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<revisedtree:Tree xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:revisedtree="http://devs.org/RevisedTree">
+  <Root ID="Root" child="//@Coordinator.0"/>
+  <Coordinator xsi:type="revisedtree:PDEVSCoordinator"/>
+  <Simulator xsi:type="revisedtree:PDEVSSimulator"/>
+</revisedtree:Tree>

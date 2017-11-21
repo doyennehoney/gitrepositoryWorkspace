@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://devs.org/graph" ID="graph">
+  <bundle href="default.bundle#/"/>
+  <vm href="default.vm#/"/>
+  <mappings ID="Map1">
+    <processes href="default.bundle#//@Process.0"/>
+    <processor href="default.vm#//@processors.0"/>
+  </mappings>
+  <mappings ID="Map2">
+    <processes href="default.bundle#//@Process.1"/>
+    <processor href="default.vm#//@processors.1"/>
+  </mappings>
+</graph:Graph>

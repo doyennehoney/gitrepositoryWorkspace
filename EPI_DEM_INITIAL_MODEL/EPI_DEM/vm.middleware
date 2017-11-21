@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<middleware:VM xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:middleware="http://psm.org/middleware" ID="uniprocessor" protocol="none">
+  <processors ID="1" IP="1.1.1.1"/>
+</middleware:VM>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<middleware:VM xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:middleware="http://psm.org/middleware" ID="twoprocessors" protocol="Web Service">
+  <processors ID="1" IP="1.1.1.1"/>
+  <processors ID="2" IP="2.2.2.2"/>
+</middleware:VM>

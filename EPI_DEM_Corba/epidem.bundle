@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<revisedbundle:Bundle xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:revisedbundle="http://devs.org/RevisedBundle" xmlns:revisedtree="http://devs.org/RevisedTree" ID="Bundle">
+  <skeleton href="epidem.skeleton#/"/>
+  <Process ID="Process1">
+    <nodes xsi:type="revisedtree:PDEVSCoordinator" href="epidem.tree#//@Coordinator.1"/>
+    <nodes xsi:type="revisedtree:PDEVSCoordinator" href="epidem.tree#//@Coordinator.0"/>
+    <nodes xsi:type="revisedtree:PDEVSSimulator" href="epidem.tree#//@Simulator.0"/>
+    <nodes xsi:type="revisedtree:Root" href="epidem.tree#//@Root"/>
+  </Process>
+  <Process ID="Process2">
+    <nodes xsi:type="revisedtree:PDEVSCoordinator" href="epidem.tree#//@Coordinator.2"/>
+    <nodes xsi:type="revisedtree:PDEVSSimulator" href="epidem.tree#//@Simulator.1"/>
+    <nodes xsi:type="revisedtree:Root" href="epidem.skeleton#//@rootskel.0"/>
+  </Process>
+</revisedbundle:Bundle>

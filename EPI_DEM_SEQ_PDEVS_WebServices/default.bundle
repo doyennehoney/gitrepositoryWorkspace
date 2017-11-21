@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bundle:Bundle xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bundle="http://devs.org/bundle" xmlns:tree="http://devs.org/tree" ID="Bundle">
+  <skeleton href="default.skeleton#/"/>
+  <Process ID="Process1">
+    <nodes xsi:type="tree:Root" href="default.tree#//@Root"/>
+    <nodes xsi:type="tree:Coordinator" href="default.tree#//@Coordinator.0"/>
+    <nodes xsi:type="tree:Coordinator" href="default.tree#//@Coordinator.1"/>
+    <nodes xsi:type="tree:Simulator" href="default.tree#//@Simulator.0"/>
+  </Process>
+  <Process ID="Process2">
+    <nodes xsi:type="tree:Root" href="default.skeleton#//@rootskel.0"/>
+    <nodes xsi:type="tree:Simulator" href="default.tree#//@Simulator.1"/>
+    <nodes xsi:type="tree:Coordinator" href="default.tree#//@Coordinator.2"/>
+  </Process>
+</bundle:Bundle>

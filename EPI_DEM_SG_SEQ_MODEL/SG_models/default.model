@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:CoupledDEVS xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://model.org" name="EPIDEM">
+  <subModels xsi:type="model:CoupledDEVS" name="A" container="/">
+    <iports portId="DEVS_A_IN" owner="//@subModels.0"/>
+    <oports portId="DEVS_A_OUT" owner="//@subModels.0"/>
+    <subModels xsi:type="model:AtomicDEVS" name="A_Demography" container="//@subModels.0">
+      <iports portId="AD_gridIn" owner="//@subModels.0/@subModels.0"/>
+      <oports portId="AD_gridOut" owner="//@subModels.0/@subModels.0"/>
+    </subModels>
+    <eics influencer="//@subModels.0/@iports.0" influencee="//@subModels.0/@subModels.0/@iports.0"/>
+    <eocs influencer="//@subModels.0/@subModels.0/@oports.0" influencee="//@subModels.0/@oports.0"/>
+  </subModels>
+  <subModels xsi:type="model:CoupledDEVS" name="B" container="/">
+    <iports portId="DEVS_B_IN" owner="//@subModels.1"/>
+    <oports portId="DEVS_B_OUT" owner="//@subModels.1"/>
+    <subModels xsi:type="model:AtomicDEVS" name="B_Demography" container="//@subModels.1">
+      <iports portId="BD_gridIn" owner="//@subModels.1/@subModels.0"/>
+      <oports portId="BD_gridOut" owner="//@subModels.1/@subModels.0"/>
+    </subModels>
+    <eics influencer="//@subModels.1/@iports.0" influencee="//@subModels.1/@subModels.0/@iports.0"/>
+    <eocs influencer="//@subModels.1/@subModels.0/@oports.0" influencee="//@subModels.1/@oports.0"/>
+  </subModels>
+  <ics influencer="//@subModels.0/@oports.0" influencee="//@subModels.1/@iports.0"/>
+  <ics influencer="//@subModels.1/@oports.0" influencee="//@subModels.0/@iports.0"/>
+</model:CoupledDEVS>

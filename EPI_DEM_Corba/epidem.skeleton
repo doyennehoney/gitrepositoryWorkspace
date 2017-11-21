@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<revisedskeleton:Skeleton xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:revisedskeleton="http://devs.org/RevisedSkeleton" xmlns:revisedtree="http://devs.org/RevisedTree" ID="Skeleton">
+  <tree href="epidem.tree#/"/>
+  <rootskel ID="Root2">
+    <child xsi:type="revisedtree:PDEVSCoordinator" href="epidem.tree#//@Coordinator.2"/>
+  </rootskel>
+</revisedskeleton:Skeleton>

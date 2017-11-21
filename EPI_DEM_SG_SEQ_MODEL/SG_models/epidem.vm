@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vm:VM xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:vm="http://devs.org/vm" ID="vm" protocol="java">
+  <processors ID="Proc" IP="0.0.0.0"/>
+</vm:VM>

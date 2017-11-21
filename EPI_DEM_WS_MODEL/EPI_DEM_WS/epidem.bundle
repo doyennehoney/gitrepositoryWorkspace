@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bundle:Bundle xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bundle="http://psm.org/bundle" xmlns:middleware="http://psm.org/middleware" xmlns:tree="http://psm.org/Tree" ID="Bundle">
+  <skeleton href="epidem.skeleton#/"/>
+  <Process ID="Process1">
+    <nodes xsi:type="tree:PDEVSCoordinator" href="epidem.tree#//@Coordinator.1"/>
+    <nodes xsi:type="tree:PDEVSCoordinator" href="epidem.tree#//@Coordinator.0"/>
+    <nodes xsi:type="tree:PDEVSSimulator" href="epidem.tree#//@Simulator.0"/>
+    <nodes xsi:type="tree:Root" href="epidem.tree#//@Root"/>
+    <middleware xsi:type="middleware:WebService" href="epidem.middleware#/"/>
+  </Process>
+  <Process ID="Process2">
+    <nodes xsi:type="tree:PDEVSCoordinator" href="epidem.tree#//@Coordinator.2"/>
+    <nodes xsi:type="tree:PDEVSSimulator" href="epidem.tree#//@Simulator.1"/>
+    <nodes xsi:type="tree:Root" href="epidem.skeleton#//@rootskel.0"/>
+    <middleware xsi:type="middleware:WebService" href="epidem.middleware#/"/>
+  </Process>
+</bundle:Bundle>

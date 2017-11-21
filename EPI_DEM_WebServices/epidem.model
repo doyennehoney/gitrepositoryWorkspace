@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:CoupledDEVS xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://model.org" xmi:id="_-q3xACelEeeoV8U9TntPvg" name="EPIDEM">
+  <subModels xsi:type="model:CoupledDEVS" xmi:id="_-q3xASelEeeoV8U9TntPvg" name="A" container="_-q3xACelEeeoV8U9TntPvg">
+    <iports xmi:id="_-q3xAielEeeoV8U9TntPvg" portId="DEVS_A_IN" owner="_-q3xASelEeeoV8U9TntPvg"/>
+    <oports xmi:id="_-q3xAyelEeeoV8U9TntPvg" portId="DEVS_A_OUT" owner="_-q3xASelEeeoV8U9TntPvg"/>
+    <subModels xsi:type="model:AtomicDEVS" xmi:id="_-q3xBCelEeeoV8U9TntPvg" name="A_Demography" container="_-q3xASelEeeoV8U9TntPvg">
+      <iports xmi:id="_-q3xBSelEeeoV8U9TntPvg" portId="AD_gridIn" owner="_-q3xBCelEeeoV8U9TntPvg"/>
+      <oports xmi:id="_-q3xBielEeeoV8U9TntPvg" portId="AD_gridOut" owner="_-q3xBCelEeeoV8U9TntPvg"/>
+    </subModels>
+    <eics xmi:id="_-q4YECelEeeoV8U9TntPvg" influencer="_-q3xAielEeeoV8U9TntPvg" influencee="_-q3xBSelEeeoV8U9TntPvg"/>
+    <eocs xmi:id="_-q4YESelEeeoV8U9TntPvg" influencer="_-q3xBielEeeoV8U9TntPvg" influencee="_-q3xAyelEeeoV8U9TntPvg"/>
+  </subModels>
+  <subModels xsi:type="model:CoupledDEVS" xmi:id="_-q4YEielEeeoV8U9TntPvg" name="B" container="_-q3xACelEeeoV8U9TntPvg">
+    <iports xmi:id="_-q4YEyelEeeoV8U9TntPvg" portId="DEVS_B_IN" owner="_-q4YEielEeeoV8U9TntPvg"/>
+    <oports xmi:id="_-q4YFCelEeeoV8U9TntPvg" portId="DEVS_B_OUT" owner="_-q4YEielEeeoV8U9TntPvg"/>
+    <subModels xsi:type="model:AtomicDEVS" xmi:id="_-q4YFSelEeeoV8U9TntPvg" name="B_Epidemiology" container="_-q4YEielEeeoV8U9TntPvg">
+      <iports xmi:id="_-q4YFielEeeoV8U9TntPvg" portId="BD_gridIn" owner="_-q4YFSelEeeoV8U9TntPvg"/>
+      <oports xmi:id="_-q4YFyelEeeoV8U9TntPvg" portId="BD_gridOut" owner="_-q4YFSelEeeoV8U9TntPvg"/>
+    </subModels>
+    <eics xmi:id="_-q4YGCelEeeoV8U9TntPvg" influencer="_-q4YEyelEeeoV8U9TntPvg" influencee="_-q4YFielEeeoV8U9TntPvg"/>
+    <eocs xmi:id="_-q4YGSelEeeoV8U9TntPvg" influencer="_-q4YFyelEeeoV8U9TntPvg" influencee="_-q4YFCelEeeoV8U9TntPvg"/>
+  </subModels>
+  <ics xmi:id="_-q4YGielEeeoV8U9TntPvg" influencer="_-q3xAyelEeeoV8U9TntPvg" influencee="_-q4YEyelEeeoV8U9TntPvg"/>
+  <ics xmi:id="_-q4YGyelEeeoV8U9TntPvg" influencer="_-q4YFCelEeeoV8U9TntPvg" influencee="_-q3xAielEeeoV8U9TntPvg"/>
+</model:CoupledDEVS>

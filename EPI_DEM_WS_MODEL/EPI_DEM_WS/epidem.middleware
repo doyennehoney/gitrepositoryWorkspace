@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<middleware:WebService xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:middleware="http://psm.org/middleware">
+  <uses href="vm.middleware#/"/>
+  <process href="epidem.bundle#//@Process.0"/>
+  <process href="epidem.bundle#//@Process.1"/>
+  <stubs>
+    <impl href="serviceImpl.middleware#/"/>
+  </stubs>
+</middleware:WebService>

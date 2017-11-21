@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:CoupledDEVS xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://model.org" xmi:id="_-q3xACelEeeoV8U9TntPvg" name="EPIDEM">
+  <subModels xsi:type="model:AtomicDEVS" xmi:id="_W6i9ID0HEeenQZaiIrUMUg" name="B_Epidemiology" container="_-q3xACelEeeoV8U9TntPvg">
+    <iports xmi:id="_W6i9IT0HEeenQZaiIrUMUg" portId="BD_gridIn" owner="_W6i9ID0HEeenQZaiIrUMUg"/>
+    <oports xmi:id="_W6i9Ij0HEeenQZaiIrUMUg" portId="BD_gridOut" owner="_W6i9ID0HEeenQZaiIrUMUg"/>
+    <deltaInt xmi:id="_xTjJ0D0KEeenQZaiIrUMUg"/>
+    <deltaConf xmi:id="_vt1wQD0KEeenQZaiIrUMUg"/>
+    <deltaExt xmi:id="_wlfxAD0KEeenQZaiIrUMUg"/>
+  </subModels>
+  <subModels xsi:type="model:AtomicDEVS" xmi:id="_YTS4wD0HEeenQZaiIrUMUg" name="A_Demography" container="_-q3xACelEeeoV8U9TntPvg">
+    <iports xmi:id="_YTS4wT0HEeenQZaiIrUMUg" portId="AD_gridIn" owner="_YTS4wD0HEeenQZaiIrUMUg"/>
+    <oports xmi:id="_YTS4wj0HEeenQZaiIrUMUg" portId="AD_gridOut" owner="_YTS4wD0HEeenQZaiIrUMUg"/>
+    <deltaInt xmi:id="_zVQi4D0KEeenQZaiIrUMUg"/>
+    <deltaConf xmi:id="_yEOY0D0KEeenQZaiIrUMUg"/>
+    <deltaExt xmi:id="_yremED0KEeenQZaiIrUMUg"/>
+  </subModels>
+  <ics xmi:id="_-q4YGielEeeoV8U9TntPvg" influencer="_W6i9Ij0HEeenQZaiIrUMUg" influencee="_YTS4wT0HEeenQZaiIrUMUg"/>
+  <ics xmi:id="_-q4YGyelEeeoV8U9TntPvg" influencer="_YTS4wj0HEeenQZaiIrUMUg" influencee="_W6i9IT0HEeenQZaiIrUMUg"/>
+</model:CoupledDEVS>

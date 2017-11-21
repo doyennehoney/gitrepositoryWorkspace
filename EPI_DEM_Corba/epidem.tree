@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<revisedtree:Tree xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:revisedtree="http://devs.org/RevisedTree" ID="Simulation_Tree">
+  <Root ID="Main_Root" child="//@Coordinator.0"/>
+  <Coordinator xsi:type="revisedtree:PDEVSCoordinator" ID="EPIDEM" modelName="EPIDEM" children="//@Coordinator.1 //@Coordinator.2"/>
+  <Coordinator xsi:type="revisedtree:PDEVSCoordinator" ID="A" modelName="A" children="//@Simulator.0"/>
+  <Coordinator xsi:type="revisedtree:PDEVSCoordinator" ID="B" modelName="B" children="//@Simulator.1"/>
+  <Simulator xsi:type="revisedtree:PDEVSSimulator" ID="A_Demography" modelName="A_Demography"/>
+  <Simulator xsi:type="revisedtree:PDEVSSimulator" ID="B_Epidemiology" modelName="B_Epidemiology"/>
+</revisedtree:Tree>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bundle:Bundle xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bundle="http://devs.org/bundle" xmlns:tree="http://devs.org/tree" ID="epidem_bund">
+  <skeleton href="epidem.skeleton#/"/>
+  <Process ID="main_process">
+    <nodes xsi:type="tree:Coordinator" href="epidem.tree#//@Coordinator.1"/>
+    <nodes xsi:type="tree:Coordinator" href="epidem.tree#//@Coordinator.2"/>
+    <nodes xsi:type="tree:Coordinator" href="epidem.tree#//@Coordinator.0"/>
+    <nodes xsi:type="tree:Root" href="epidem.tree#//@Root"/>
+    <nodes xsi:type="tree:Simulator" href="epidem.tree#//@Simulator.0"/>
+    <nodes xsi:type="tree:Simulator" href="epidem.tree#//@Simulator.1"/>
+  </Process>
+</bundle:Bundle>
